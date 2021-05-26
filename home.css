@@ -94,8 +94,8 @@ body {
 .wayang-kanan {
   position: relative;
   float: right;
-  left: 3rem;
-  top: 3rem;
+  left: 10vw;
+  top: 9vw;
 }
 
 /* Text OKK */
@@ -108,6 +108,10 @@ body {
   left: 10vw;
 }
 
+.title-okk h3 {
+  font-size: 5vw;
+}
+
 .title-okk h1 {
   font-size: 10vw;
 }
@@ -116,15 +120,15 @@ body {
 
 .title-okk a {
   position: relative;
-  top: 0.5rem;
-  left: 1.5rem;
+  top: 2vw;
+  left: 6vw;
 }
 
 .cta-tentang {
-  border-radius: 1em;
+  border-radius: 7vw;
   width: 60%;
-  height: 2em;
-  font-size: 1rem;
+  height: 8vw;
+  font-size: 4.3vw;
   background-color: #fff;
   border: none;
 }
@@ -242,10 +246,11 @@ body {
 
 .cta-kelompok {
   width: 30%;
-  height: 2em;
-  border-radius: 1em;
+  height: 9vw;
+  border-radius: 7vw;
   background-color: #fff;
   border: none;
+  font-size: 4.3vw;
 }
 
 /* Bagian Sponsor */
@@ -259,5 +264,16 @@ body {
   margin-bottom: 30vw;
 }
 
-/* @media only screen and (min-device-width: px) and (max-device-width: 480px) {
-} */
+.sponsor h2 {
+  font-size: 5vw;
+}
+
+.rekan-media h2 {
+  font-size: 5vw;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .wayang-kanan {
+    left: 15vw;
+  }
+}
