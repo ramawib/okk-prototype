@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Economica", sans-serif;
+}
+
+body {
+  background-image: url("phonelongbg.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 375px;
+  margin: 0 auto;
+  background-clip: content-box;
+}
+
+.wrapper {
+  width: 375px;
+  height: 725px;
+  overflow: hidden;
+}
+
+/* ?Awan */
+
+.awan {
+  position: relative;
+  z-index: -1;
+}
+
+.awan-kiri,
+.awan-tengah,
+.awan-kanan {
+  width: 40%;
+  position: relative;
+}
+
+.awan-kiri {
+  top: 20px;
+  right: 10px;
+}
+
+.awan-tengah {
+  right: 50px;
+  top: 170px;
+}
+
+.awan-kanan {
+  float: right;
+}
+
+/*? Wayang */
+
+.wayang {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  height: 500px;
+}
+
+.wayang-kiri,
+.wayang-kanan {
+  width: 50%;
+}
+
+.wayang-kiri {
+  position: relative;
+  top: 22px;
+  left: 5px;
+}
+
+.wayang-kanan {
+  position: relative;
+  float: right;
+  left: 105px;
+  top: 40px;
+}
+
+/* Text OKK */
+
+.title-okk {
+  color: #ffc380;
+  width: 60%;
+  position: relative;
+  bottom: 14.5rem;
+  left: 2rem;
+}
+
+.title-okk h1 {
+  font-size: 2.5em;
+}
+
+.title-okk a {
+  position: relative;
+  top: 0.5rem;
+  left: 2.2rem;
+}
+
+/* CTA Button Tentang OKK UI 2021 */
+
+.cta-tentang {
+  border-radius: 1em;
+  width: 60%;
+  height: 2em;
+  font-size: 1rem;
+}
+
+/* !Acara */
+
+.title-acara {
+  color: #ffc380;
+  width: 85%;
+  margin-inline: auto;
+}
+
+.title-acara h1 {
+  font-size: 3em;
+}
+
+.title-acara p {
+  font-size: 1.1em;
+}
+
+/* !!!CAROUSEL */
+
+/* ?Title Misi */
+.title-misi {
+  text-align: center;
+  position: relative;
+  top: 10rem;
+  margin-inline: auto;
+  width: 80%;
+}
+
+.title-misi h1 {
+  color: #ffc380;
+  font-size: 3.5em;
+}
+
+.title-misi p {
+  font-size: 1.2rem;
+}
+
+/* ?Awan Misi*/
+.awan-misi {
+  position: relative;
+  z-index: -1;
+}
+
+.awan-misi img {
+  width: 75%;
+  position: relative;
+}
+
+.awan-misikiri {
+  right: 140px;
+  top: 50px;
+}
+
+.awan-misikanan {
+  float: right;
+  left: 140px;
+  bottom: 90px;
+}
+
+/* ?Pohon Kelapa */
+.pohon-kelapa {
+  width: 100%;
+  position: relative;
+  bottom: 9rem;
+}
+
+.pohon-kelapa img {
+  width: 45%;
+  position: relative;
+}
+
+.kelapa-kanan {
+  left: 4rem;
+}
+
+.kelapa-kiri {
+  right: 1rem;
+}
+
+/* !Kelompok */
+.title-kelompok {
+  text-align: center;
+  margin-inline: auto;
+  width: 80%;
+  color: #fff;
+  margin-top: 7rem;
+}
+
+.title-kelompok h1 {
+  font-size: 3.5em;
+}
+
+.title-kelompok p {
+  color: #cbecf7;
+  font-size: 1.1em;
+}
+
+.cta-kelompok {
+  width: 30%;
+  height: 2em;
+  border-radius: 1em;
+}
+
+/* Bagian Sponsor */
+.credits {
+  margin: 15rem auto;
+  text-align: center;
+  align-items: center;
+}
+
+.sponsor {
+  margin-bottom: 40px;
+}
+
+/* !Special Wrapper Bagian Sponsor */
+
+.wpspecial {
+  height: 1023px;
+  width: 375px;
+  overflow: hidden;
+}
+
+/* !Footer Wrapper */
+.footer {
+  height: 420px;
+  width: 375px;
+  overflow: hidden;
+}
