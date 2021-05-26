@@ -133,7 +133,7 @@ body {
 
 .content {
   width: 100vw;
-  margin-inline: auto;
+  margin: 0 auto;
   height: 75vw;
   position: relative;
 }
@@ -163,7 +163,7 @@ body {
 
 .title-misi {
   text-align: center;
-  margin-inline: auto;
+  margin: 0 auto;
   padding-top: 8vw;
   width: 80%;
   z-index: 1;
@@ -225,7 +225,7 @@ body {
 /* !Kelompok */
 .title-kelompok {
   text-align: center;
-  margin-inline: auto;
+  margin: 0 auto;
   width: 80%;
   color: #fff;
   margin-top: 28vw;
