@@ -108,10 +108,9 @@ body {
   font-family: "Economica", sans-serif;
 }
 
-body {
-  background-image: url("phonelongbg.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.bg-base-web {
+  display: none;
+  visibility: hidden;
 }
 
 /* Layout */
@@ -390,8 +389,17 @@ body {
 }
 
 @media only screen and (min-device-width: 1224px) {
-  body {
-    background-image: url("longbg.png");
+  .bg-base-mobile {
+    display: none;
+    visibility: hidden;
+  }
+
+  .bg-base-web {
+    display: unset;
+    visibility: visible;
+    position: absolute;
+    z-index: -10;
+    width: 100%;
   }
 
   .section-landing {
@@ -580,7 +588,7 @@ body {
     font-size: 3vw;
     align-items: center;
     text-align: center;
-    margin: 7vw 0 3vw 0;
+    margin: 5vw 0 2vw 0;
   }
 
   .company-logo {
