@@ -26,7 +26,6 @@
                 <img src="awan-float.png" class="awan-float-web">
             </div>
         </div>
-        
     </div>
 
     <!-- *Section2 -->
@@ -106,6 +105,20 @@
         <!-- *Section6 -->
         <div class="wrapper section-footer"></div>
 
+
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+
+        <script>
+            var loader = document.querySelector(".loader-wrapper")
+            
+            window.addEventListener("load", vanish);
+          
+          function vanish(){
+            loader.classList.add("disappear")
+          }
+        </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
