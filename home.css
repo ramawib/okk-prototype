@@ -2,7 +2,7 @@
 
 .loader-wrapper {
   width: 100%;
-  height: 1200vw;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -65,7 +65,7 @@
 }
 
 .disappear {
-  animation: vanish 2s forwards;
+  animation: vanish 1s forwards;
 }
 
 @keyframes vanish {
@@ -73,6 +73,10 @@
     opacity: 0;
     visibility: hidden;
   }
+}
+
+.noscroll {
+  overflow: hidden;
 }
 
 /* width */
