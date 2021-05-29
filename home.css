@@ -108,6 +108,13 @@ body {
   font-family: "Economica", sans-serif;
 }
 
+.whole-wrap {
+  background: #110116;
+  z-index: -15;
+  width: 100%;
+  position: relative;
+}
+
 .bg-base-mobile {
   position: absolute;
   z-index: -10;
@@ -145,6 +152,7 @@ body {
 
 .section-footer {
   height: 215vw;
+  display: grid;
 }
 
 /* ?Awan */
@@ -237,6 +245,10 @@ body {
   font-size: 4.3vw;
   background-color: #fff;
   border: none;
+}
+
+.cta-tentang:hover {
+  opacity: 80%;
 }
 
 /* !Acara */
@@ -360,6 +372,10 @@ body {
   font-size: 4.3vw;
 }
 
+.cta-kelompok:hover {
+  opacity: 80%;
+}
+
 /* Bagian Sponsor */
 
 .section-credits {
@@ -374,19 +390,80 @@ body {
 }
 
 .sponsor-wrap {
-  margin-top: 50vw;
-  margin-bottom: 15vw;
+  margin-top: 45vw;
 }
 
 .text-sponsor h2 {
   font-size: 8vw;
-  margin: 12vw auto 0 auto;
+  margin: 0 auto;
 }
 
 .company-logo {
   margin-top: 10vw;
-  width: 60%;
+  margin-bottom: -25vw;
+  width: 50%;
 }
+
+/* .contact-footer {
+  width: 100%;
+  height: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-footer-content {
+  width: 100%;
+  height: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2vw 0 0 2vw;
+  color: white;
+  border: salmon solid 10px;
+}
+
+.contact-person {
+  grid-template-columns: 33% 33%;
+  grid-template-rows: 10%;
+  border: yellow solid 2px;
+}
+
+.contact-div {
+  width: 50%;
+  color: white;
+  border: red solid 2px;
+  display: flex;
+}
+
+.contact-div img {
+  float: left;
+}
+
+.contact-div h4 {
+  color: white;
+  padding-top: -0.2vw;
+}
+
+.contact-icon {
+  font-size: 8vw;
+  color: white;
+  float: left;
+}
+
+.contact-line {
+  width: 8vw;
+  height: 8vw;
+}
+
+.tagline-wrap {
+  float: left;
+  width: 90%;
+  border: blue 5px solid;
+}
+
+.tagline-wrap div,
+.tagline-wrap hr {
+  display: flex;
+} */
 
 /* Web Properties */
 
@@ -424,7 +501,7 @@ body {
   }
 
   .section-misi {
-    height: 60.1vw;
+    height: 62vw;
     z-index: -1;
   }
 
@@ -523,6 +600,11 @@ body {
     border: none;
   }
 
+  .cta-tentang:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
+
   /* !Acara */
 
   .title-acara {
@@ -608,8 +690,95 @@ body {
 
   .section-credits {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .text-sponsor {
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    margin-top: 10vw;
+  }
+
+  .sponsor-wrap {
+    margin-top: 0;
+    width: 50%;
+    height: 20vw;
+    flex: 1;
+    flex-direction: row;
+  }
+
+  .sponsor-wrap-right {
+    border-right: #000 solid 1px;
+  }
+
+  .text-sponsor h2 {
+    font-size: 3.5vw;
+    margin: 0 auto 2vw auto;
+  }
+
+  .company-logo {
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+    width: 20vw;
+  }
+
+  .contact-footer {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+  }
+
+  .contact-footer-content {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 0 0 2vw;
+    color: white;
+  }
+
+  .contact-div {
+    width: 50%;
+    color: white;
+  }
+
+  .contact-div img {
+    float: left;
+  }
+
+  .contact-div h4 {
+    color: white;
+    padding-top: -0.2vw;
+  }
+
+  .contact-icon {
+    font-size: 2vw;
+    color: white;
+    float: left;
+  }
+
+  .contact-line {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .tagline-wrap {
+    float: right;
+    width: 90%;
+    /* border: blue 5px solid; */
+  }
+
+  .tagline-wrap div,
+  .tagline-wrap hr {
+    display: flex;
+    justify-content: flex-end;
+  }
+  /* .section-credits {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     text-align: unset;
     justify-content: center;
   }
@@ -629,7 +798,7 @@ body {
   .company-logo {
     width: 40%;
     margin: 0 14vw;
-  }
+  }  */
 }
 
 /* .hidden {
